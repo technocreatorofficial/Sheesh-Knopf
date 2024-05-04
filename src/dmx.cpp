@@ -17,11 +17,11 @@
 
 #include "dmx.h"
 
-#define DMX_SERIAL_INPUT_PIN    GPIO_NUM_16 // pin for dmx rx
-#define DMX_SERIAL_OUTPUT_PIN   GPIO_NUM_17 // pin for dmx tx
+#define DMX_SERIAL_INPUT_PIN    GPIO_NUM_20 // pin for dmx rx
+#define DMX_SERIAL_OUTPUT_PIN   GPIO_NUM_21 // pin for dmx tx
 #define DMX_SERIAL_IO_PIN       GPIO_NUM_4  // pin for dmx rx/tx change
 
-#define DMX_UART_NUM            UART_NUM_2  // dmx uart
+#define DMX_UART_NUM            UART_NUM_0  // dmx uart
 
 #define HEALTHY_TIME            500         // timeout in ms 
 
